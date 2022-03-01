@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'Components/1.dart';
-import 'Components/2.dart';
-import 'Components/3.dart';
+import 'Components/VereviMas.dart';
+import 'Components/MejtexiMas.dart';
+import 'Components/NerqeviMas.dart';
 import 'Components/button.dart';
 
 void main() {
@@ -16,9 +16,9 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         body: Column(children: [
-          ggg(),
-          sss(),
-          aaa()
+          vereviMas(),
+          mejtexiMas(),
+          nerqeviMas(),
         ]),
         bottomNavigationBar: button(),
       ),
